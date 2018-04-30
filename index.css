@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://wallpaperscraft.com/image/lightning_field_road_blackness_bad_weather_sky_peal_elements_60125_1920x1080.jpg);
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% top;
+      background-attachment: fixed;
+      text-align: center;
+}
+.wrapper {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color:rgba(255,255,255, 0.4);
+  }
+  .pageName {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    margin-top: 3%;
+    font-size: 450%;
+  }
+  .icon {
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  h3 {
+      font-size: 300%;
+      font-family: 'Carter One', cursive;
+  }
+  p{
+      font-size: 200%;
+      font-family: 'Carter One', cursive;
+  }
+  button {
+      margin-top: 4%;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <title>Local weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="pageName">Local Weather</div>
+    <div class="wrapper">
+        <div>
+            <h3 style="display:inline">Now in </h3>
+            <h3 style="display:inline" id="city"></h3>,
+            <h3 style="display:inline" id="country"></h3>
+        </div>
+        <div style="display:inline" id="weather" class="icon"></div>
+        <div>
+            <img style="display:none" id="rain" class="icon" src="http://icons.iconarchive.com/icons/large-icons/large-weather/256/rain-icon.png"/>
+            <img style="display:none" id="sun" class="icon" src="http://www.pngmart.com/files/3/Sun-PNG-Photos.png" />
+            <img style="display:none" id="snow" class="icon" src="http://www.free-icons-download.net/images/blue-snow-icon-38706.png"/>
+            <img style="display:none" id="windy" class="icon" src="http://moziru.com/images/wind-clipart-weather-symbol-11.png" />
+            <img style="display:none" id="cloudy" class="icon" src="https://vignette.wikia.nocookie.net/farmville/images/5/57/Puffy_Cloud-icon.png/revision/latest?cb=20121010151231"/>
+            <img style="display:none" id="fog" class="icon" src="http://icongal.com/gallery/download/43079/256/png"/>
+        </div>
+        <div>
+            <p style="display:inline">Temperature of: </p>
+            <p style="display:inline" id="temperature"></p>
+        </div>
+        <div>
+            <p style="display:inline">Clouds </p>
+            <p style="display:inline" id="clouds"></p>
+            <p style="display:inline">, Humidity </p>
+            <p style="display:inline" id="humidity"></p>
+        </div>
+        <div>
+            <p style="display:inline">The wind is blowing today with: </p>
+            <p style="display:inline" id="wind"></p>
+        </div>
+            <div>
+                <button type="button" class="btn btn-lg btn-primary" onClick="toCelsius()">Change °C</button>
+                <button type="button" class="btn btn-lg btn-primary" onClick="toFahrenheit()">Change °F</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
